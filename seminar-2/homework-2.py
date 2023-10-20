@@ -9,8 +9,8 @@
 
 from fractions import Fraction
 
-# frac1 = "2/3"
-# frac2 = "3/4"
+frac1 = "2/3"
+frac2 = "3/4"
 
 # Разбиваем строки на числитель и знаменатель без использования map
 numerator1_str, denominator1_str = frac1.split('/')
