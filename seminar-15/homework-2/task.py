@@ -22,7 +22,6 @@ def main():
         a = float(input("Введите длину стороны a: "))
         b = float(input("Введите длину стороны b: "))
         c = float(input("Введите длину стороны c: "))
-        logger.info("=====================================")
         logger.info(f"a = {a}, b = {b}, c = {c}")
 
         if a + b > c and a + c > b and b + c > a:
